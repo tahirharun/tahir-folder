@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Football Stadium Seat Booking</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+  </style>
+</head>
+  <header class="flex justify-between items-center p-6 bg-white shadow-md">
+    <div class="text-2xl font-bold text-blue-900">FOOTYTV</div>
+    <nav class="flex space-x-6 text-sm font-medium">
+      <a href="index.html" class="hover:text-blue-600">Home</a>
+      <a href="aboutus.html" class="hover:text-blue-600">About Us</a>
+      <a href="facilities.html" class="hover:text-blue-600">Facilities</a>
+      <a href="schedual.html" class="hover:text-blue-600">Schedule</a>
+       <a href="contact.html" class="hover:text-blue-600">Contact</a>
+    </nav>
+  </header>
+<body class="bg-gray-100">
+  <section id="booking" class="py-12">
+    <div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow">
+      <h3 class="text-xl font-bold mb-4">Booking Details</h3>
+      <form action="#" class="space-y-4">
+        <div>
+          <label class="block mb-1">Full Name</label>
+          <input type="text" class="w-full border p-2 rounded" required />
+        </div>
+        <div>
+          <label class="block mb-1">Email</label>
+          <input type="email" class="w-full border p-2 rounded" required />
+        </div>
+        <div>
+            <h3 class="text-2xl font-semibold mb-6 text-center">Select a Seat</h3>
+            <select name="Select a seat" id="seat" class="ml-4">
+            <option value="seat1">1</option>
+            <option value="seat2">2</option>
+            <option value="seat3">3</option>
+            <option value="seat4">4</option>
+            <option value="seat5">5</option>
+            <option value="seat6">6</option>
+            <option value="seat7">7</option>
+            <option value="seat8">8</option>
+            </select>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700">Book Seat</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 bg-gray-200 text-gray-600">
+    &copy; 2025 StadiumBooking. All rights reserved.
+  </footer>
+</body>
+</html>
